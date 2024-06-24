@@ -1,0 +1,193 @@
+body {
+    color: #fff;
+    font: 600 24px;
+}
+
+.box {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+}
+
+.box:hover {
+    background: #ff7b29;
+}
+
+.sec {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 95px;
+}
+
+.sec:hover {
+    background: #ff7b29;
+    border-radius: 40px;
+}
+
+figure {
+    margin: 0;
+}
+
+.original,
+.thibox {
+    border-radius: 6px;
+}
+
+.original {
+    background: #eaeaed;
+    border: 1px dashed #cecfd5;
+    float: left;
+    margin: 12px 15px;
+}
+
+.thibox {
+    background: #2db34a;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    width: 95px;
+}
+
+.spin {
+    cursor: pointer;
+}
+
+.spin:hover {
+    animation: spin 5s linear infinite;
+}
+
+.box-1 {
+    transform: rotateX(-10deg);
+}
+
+.box-2 {
+    transform: rotateY(25%);
+}
+
+.box-3 {
+    transform: translate(-10px, 25%);
+}
+
+.for {
+    cursor: pointer;
+    height: 150px;
+    perspective: 600;
+    position: relative;
+    width: 150px;
+    margin-left: 450px;
+}
+
+.card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all ls ease-in-out;
+    width: 100%;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.card .back {
+    background-color: #eaeaed;
+    color: #0087cc;
+    line-height: 150px;
+    text-align: center;
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    50% {
+        left: 244px;
+        top: 100px;
+    }
+
+    100% {
+        left: 488px;
+        top: 0;
+    }
+}
+
+.fiv {
+    background: #eaeaed;
+    border-radius: 6px;
+    height: 150px;
+    position: relative;
+    min-width: 538px;
+}
+
+.fiv:hover .ball {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: .5s;
+}
+
+.ball {
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    margin: 0;
+}
+
+.rec {
+    background: #0087cc;
+    width: 350px;
+    height: 50px;
+    margin-top: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.rec:hover {
+    color: #202020;
+    transform: scaleY(3);
+    border-radius: 30px;
+    transition: 1s;
+}

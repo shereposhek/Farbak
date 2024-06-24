@@ -1,0 +1,177 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: rgb(215, 246, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-size: cover;
+}
+
+ul img{
+    height: 30px;
+    width: 30px;
+}
+
+ul{
+    margin-top: 10px;
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+    background-color: rgb(230, 255, 247);
+    padding: 5px;
+    border-radius: 2px;
+}
+
+header .logo{
+    background-image: url('../../../img/perm1.jpg');
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    border-radius: 60px;
+}
+
+.container{
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap; 
+}
+
+article{
+    margin-top: 3%;
+    width: 20%;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -3px 13px 22px 1px rgba(153,  153,  153, 0.65);
+}
+
+.img{
+    background: url("../../../img/4ff6eb266fb611eeb8ce963c1ee369ba_upscaled.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+.img_3{
+    background: url(../../../img/maldive.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.img_2{
+    background: url(../../../img/8520970.jpeg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.img_1{
+    background: url(../../../img/palto.jpg);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.category{
+    display: inline-block;
+    float: right;
+    margin: 10px 10px 0 0;
+    color: white;
+}
+
+.heart{
+    background: red;
+    padding: 10px;
+}
+
+.cty{
+    border-radius: 35px;
+    padding: 0 10px 0 10px;
+    font-size: 48px;
+    color: black;
+    background-color: white;
+}
+
+.special .category{
+    display: inline-block;
+    float: right;
+    transform: translateY(110px);
+    margin: 10px 10px 0 0;
+}
+
+h5{
+    margin: 10px 3px 10px 3px;
+}
+
+.tr{
+    display: flex;
+    align-items: center;
+}
+
+.tr button{
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.tr h3{
+    color: brown;
+    margin-left: 3px;
+}
+
+.intpr{
+    display: flex;
+    padding: 0;
+}
+
+.intpr h6{
+    text-decoration: line-through;
+    margin-right: 0;
+}
+
+.intpr h4{
+    margin-left: 0;
+}
+
+.headphones button{
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.special .price{
+    color: #797979;
+    margin-top: 30px;
+}

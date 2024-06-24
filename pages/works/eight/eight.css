@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background: #61a5c2;
+}
+.container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.interesting{
+    background-image: url("../../../img/perm1.jpg");
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    z-index: 0;
+}
+
+.interesting h1{
+    z-index: 1;
+    font-size: 72px;
+    color: #E3E3E3;
+}
+
+header{
+    background-color: #005685;
+    display: block;
+    height: 70px
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+    margin-left: 20px;
+}
+
+.foto{
+    width: 60%;
+}
+
+.big_one{
+    width: 747px;
+    height: 412px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.small_photo{
+    width: 100%;
+    display: flex;
+}
+
+.second{
+    margin-top: 30px;
+    opacity: 0.89;
+    width: 223px;
+    height: 123px;
+    border-radius: 10px;
+    border: 2px solid rgba(200, 180, 3, 0.99);
+    border-color: rgba(200, 180, 3, 1);
+}
+
+.tri{
+    width: 183px;
+    height: 100px;
+    margin-left: 23px;
+    border-radius: 10px;
+}
+
+.fr{
+    width: 183px;
+    height: 100px;
+    margin-left: 23px;
+    border-radius: 10px;
+}
+
+.text_city{
+    width: 35%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.tetx_city h2{
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.text_city p{
+    margin-top: 15%;
+    text-align: justify;
+}
+
+footer{
+    height: 70px;
+    margin-top: 10%;
+    text-align: center;
+    background: #caf0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    text-align: center;
+}
+.nav{
+    color: #000;
+}

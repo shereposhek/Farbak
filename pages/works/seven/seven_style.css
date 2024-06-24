@@ -1,0 +1,89 @@
+.text0{
+    text-align: center;
+    background-color: azure;
+}
+
+.text1{
+    text-indent: 5px;
+    background-color: antiquewhite;
+}
+
+.text2{
+    line-height: 40px;
+    background-color: aliceblue;
+}
+
+.text3{
+    vertical-align: baseline;
+}
+
+.text4{
+    word-spacing: 5px;
+    background-color: #F2F0E6;
+}
+
+.text5{
+    letter-spacing: 2px;
+}
+
+.text6{
+    white-space: pre-wrap;
+}
+
+.text7{
+    tab-size: 2px;
+}
+
+.text8{
+    text-transform: lowercase;
+    background-color: blanchedalmond;
+}
+
+.text9{
+    direction: rtl;
+}
+
+#text10{
+    unicode-bidi: normal;
+}
+
+#text11{
+    text-decoration: line-through;
+}
+
+#text12:first-letter{
+    font-size: 7px;
+    color:blueviolet;
+}
+
+#text13{
+    quotes: initial;
+}
+
+#text14{
+    font-family: 'Arial';
+}
+
+#text15{
+    font-style: italic;
+}
+
+#text16{
+    font-variant: small-caps;
+}
+
+#text17{
+    font-weight: 900;
+}
+
+#text18{
+    font-size: 7px;
+}
+
+#text19{
+    color: blueviolet;
+}
+
+#text20{
+    font: italic 17px;
+}

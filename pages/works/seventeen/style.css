@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.wrapper{
+    width: 480px;
+    border: 1px solid black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    height: 60px;
+    background-color: rgb(0, 119, 255);
+    display: grid;
+    grid-template-columns: 400px 80px;
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+    color: white;
+}
+
+.person{
+    display: grid;
+    grid-template-columns: 100px 280px 80px;
+    grid-template-rows: 2;
+    margin-top: 30px;
+}
+
+.person img{
+    height: 50px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.person .name h4{
+    margin-top: 10px;
+    font-size: 16px;
+    color: #a6a6a6;
+}
+
+.person h2{
+    color: rgb(35, 137, 255);
+}
+
+.sub{
+    border-left: 5px greenyellow solid;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.sub h3{
+    color: #a6a6a6;
+    margin: 30px 0px 30px 15px;
+}
+
+.att{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.att img{
+    width: 25px;
+    height: auto;
+}
+
+.skrepks{
+    margin-left: 15px;
+}
+
+.first{
+    margin: 30px 0 30px 35px;
+    display: flex;
+}
+
+.first img{
+    height: 25px;
+}
+
+.first h3{
+    margin-top: 0;
+}
